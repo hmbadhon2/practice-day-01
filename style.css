@@ -2,29 +2,63 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.section{
+    margin: 40px 10%;
+}
+
+.section h1{
+    font-size: 55px;
+    line-height: 40px;
+}
+
+.section h2{
+    font-size: 45px;
+    line-height: 30px;
+}
+
+.high-light{
+    color:rgb(73, 174, 252);
+}
+.flex-container{
     display: flex;
-    
 }
-h1{
-    font-size: 50px;
-}
-
-.font-color{
-    color:rgb(44, 201, 249);
-}
-
-.width{
+.half-width{
     width: 50%;
-    padding-left: 5%;
+    margin-right:40px;
+
 }
-div img{
-    width:100%;
+
+.half-width img{
+    width: 100%;
+}
+
+.section-content{
+    margin-top: 50px;
+}
+.section-content p{
+    padding-bottom: 30px;
 }
 .link-button{
-    text-decoration:none;
-    padding:10px 20px;
-    border-radius: 4px;
-    color:white;
-    background-image: linear-gradient(rgb(54, 154, 253), navy);
+    background-image: linear-gradient(rgb(73, 174, 252),#068FF7);
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    
+}
+.person-section img{
+    padding-top: 100px;
+    width: 60%;
+    
+}
+
+.section-background{
+    background-image: url(img/hero-bg.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.section-header h2{
+    text-align: center;
 }
