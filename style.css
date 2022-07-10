@@ -59,6 +59,7 @@ body{
     width: 100%;
     background-size: cover;
 }
-.section-header h2{
+.section-header{
     text-align: center;
+    padding: 25%;
 }
